@@ -1,0 +1,79 @@
+{
+  "drugs": [
+    {
+      "drug_name": "drug_1",
+      "drug_no": "101700",
+      "html_path": "htmls/1/1.html"
+    },
+    {
+      "drug_name": "drug_2",
+      "drug_no": "101701",
+      "html_path": "htmls/1/2.html"
+    },
+    {
+      "drug_name": "drug_3",
+      "drug_no": "101702",
+      "html_path": "htmls/1/3.html"
+    },
+    {
+      "drug_name": "drug_4",
+      "drug_no": "101703",
+      "html_path": "htmls/1/4.html"
+    },
+    {
+      "drug_name": "drug_5",
+      "drug_no": "101704",
+      "html_path": "htmls/1/5.html"
+    },
+    {
+      "drug_name": "drug_6",
+      "drug_no": "101705",
+      "html_path": "htmls/1/6.html"
+    },
+    {
+      "drug_name": "drug_7",
+      "drug_no": "101706",
+      "html_path": "htmls/1/7.html"
+    },
+    {
+      "drug_name": "drug_8",
+      "drug_no": "101707",
+      "html_path": "htmls/1/8.html"
+    },
+    {
+      "drug_name": "drug_9",
+      "drug_no": "101708",
+      "html_path": "htmls/1/9.html"
+    },
+    {
+      "drug_name": "drug_10",
+      "drug_no": "101709",
+      "html_path": "htmls/1/10.html"
+    },
+    {
+      "drug_name": "drug_11",
+      "drug_no": "101710",
+      "html_path": "htmls/1/11.html"
+    },
+    {
+      "drug_name": "drug_12",
+      "drug_no": "101711",
+      "html_path": "htmls/1/12.html"
+    },
+    {
+      "drug_name": "drug_13",
+      "drug_no": "101712",
+      "html_path": "htmls/1/13.html"
+    },
+    {
+      "drug_name": "drug_14",
+      "drug_no": "101713",
+      "html_path": "htmls/1/14.html"
+    },
+    {
+      "drug_name": "drug_15",
+      "drug_no": "101712",
+      "html_path": "htmls/1/15.html"
+    }
+  ]
+}
