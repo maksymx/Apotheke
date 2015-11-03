@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="action_settings">Налаштування</string>
+    <string name="app_logo">Логотип</string>
+    <string name="app_name">Аптечка</string>
+    <string name="find_name">Знайти за назвою</string>
+    <string name="find_symptom">Знайти за симптомами</string>
+    <string name="hello_world">Привіт, світ!</string>
+    <string name="title_activity_about">Про програму</string>
+    <string name="title_activity_list">Пошук за назвою</string>
+    <string name="title_activity_tags">Пошук за симптомами</string>
+    <string name="about">Зроблено на:\n
+	<b>Студія <i>"Двоока змія"</i> ©</b>\n
+	    	Всі права застережено!\n
+	    	2013</string>
+    <string name="title_activity_web">Веб</string>
+
+</resources>
