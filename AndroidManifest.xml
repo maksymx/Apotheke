@@ -23,22 +23,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tes.apotheke.About"
+            android:name=".AboutActivity"
             android:label="@string/title_activity_about"
             android:theme="@android:style/Theme.Dialog" >
         </activity>
         <activity
-            android:name="com.tes.apotheke.DrugList"
+            android:name=".DrugListActivity"
             android:label="@string/title_activity_list"
             android:parentActivityName="android.app.ListActivity"
             android:theme="@android:style/Theme.Black" >
         </activity>
         <activity
-            android:name="com.tes.apotheke.Tags"
+            android:name=".Tags"
             android:label="@string/title_activity_tags" >
         </activity>
         <activity
-            android:name="com.tes.apotheke.Web"
+            android:name=".Web"
             android:label="@string/title_activity_web" >
         </activity>
     </application>

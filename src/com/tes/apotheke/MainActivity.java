@@ -9,68 +9,42 @@ import android.view.View;
 //import android.widget.ImageView;
 import android.content.Intent;
 
-public class MainActivity extends Activity {
-	
-	//private ImageView splash;
-	//private static final int STOPSPLASH = 0;
-	//private static final long SPLASHTIME = 2000;
-	
-	/*private Handler splashhandler = new Handler()
-	{
-		@Override
-		public void handleMessage(Message msg)
-		{
-			switch (msg.what) {
-			case STOPSPLASH:
-				splash.setVisibility(View.GONE);
-				break;
-			}
-			super.handleMessage(msg);
-		}
-	};*/
+public class MainActivity extends Activity implements View.OnClickListener {
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
-		//splash = (ImageView) findViewById(R.id.splashscreen);
-	}
-	
-	public void AboutClick(View v){
-		switch (v.getId()) {
-		case R.id.button1:
-			Intent intent = new Intent(MainActivity.this, About.class);
-			startActivity(intent);		
-			break;
-		}
-	}
-	
-	public void ListClick(View v){
-		switch (v.getId()) {
-		case R.id.button2:
-			Intent intent = new Intent(MainActivity.this, DrugList.class);
-			startActivity(intent);		
-			break;
-		}
-	}
-	
-	public void TagsClick(View v){
-		switch (v.getId()) {
-		case R.id.button3:
-			Intent intent = new Intent(MainActivity.this, Tags.class);
-			startActivity(intent);		
-			break;
-		}
-	}
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
-		return true;
-	}
+        findViewById(R.id.btn_about).setOnClickListener(this);
+        findViewById(R.id.btn_drug_list).setOnClickListener(this);
+        findViewById(R.id.btn_tags).setOnClickListener(this);
+
+    }
 
 
-	
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.btn_about:
+                startActivity(new Intent(MainActivity.this, AboutActivity.class));
+                break;
+
+            case R.id.btn_drug_list:
+                startActivity(new Intent(MainActivity.this, DrugListActivity.class));
+                break;
+
+            case R.id.btn_tags:
+                startActivity(new Intent(MainActivity.this, Tags.class));
+                break;
+        }
+    }
 }
-

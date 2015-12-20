@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="search_title" type="id"/>
+    <item name="search_view" type="id"/>
+    <item name="list_view" type="id"/>
+    <item name="btn_tags" type="id"/>
+    <item name="btn_about" type="id"/>
+    <item name="btn_drug_list" type="id"/>
+    <item name="img_logo" type="id"/>
+    <item name="txt_about" type="id"/>
+</resources>

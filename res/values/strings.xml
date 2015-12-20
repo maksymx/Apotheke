@@ -10,9 +10,10 @@
     <string name="title_activity_list">Search by name</string>
     <string name="title_activity_tags">Search by symptom</string>
     <string name="app_logo">App Logo</string>
-    <string name="about">Made by:\n	<b>TwoEyedSnake Studio ©</b>\n
+    <string name="about">Made by:\n
+	<b>TwoEyedSnake Studio ©</b>\n
 	    	All Rights Reserved!\n
-	    	2013</string>
+	    	2016</string>
     <string name="title_activity_web">Web</string>
 
 </resources>
